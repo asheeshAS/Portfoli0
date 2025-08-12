@@ -40,18 +40,12 @@
             color: var(--secondary);
         }
 
-        /* .container {
+        .container {
             width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 auto;
             
-        } */
-         .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
         }
 
         /* Header Styles */
@@ -114,8 +108,8 @@
         }
 
         /* Hero Section */
-        /* #hero {
-            height: 220vh;
+        #hero {
+            height: 120vh;
             display: flex;
             align-items: center;
             padding-top: 80px;
@@ -123,15 +117,6 @@
             overflow: hidden;
             
             
-        } */
-
-         #hero {
-            height: 180vh;
-            display: flex;
-            align-items: center;
-            padding-top: 80px;
-            position: relative;
-            overflow: hidden;
         }
         
 
@@ -140,7 +125,7 @@
             align-items: center;
             justify-content: space-between;
             gap: 2rem;
-            /* padding-top: 150px; */
+            padding-top: 150px;
             
             
         }
@@ -218,7 +203,7 @@
 
         /* About Section */
         section {
-             padding: 10rem 0;  
+             padding: 12rem 0;  
             
         }
         /* .container1{
