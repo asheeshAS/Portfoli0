@@ -1,12 +1,20 @@
         :root {
-            --primary: #00ff88;
-            --secondary: #00a35c;
-            --dark: #121212;
+            /* --primary: #00ff88;
+            --secondary: #00a35c; */
+             /* --primary: #00FF84; */
+             --primary: #dec768;      
+             --secondary: #fbf5f5; 
+            /* --dark: #121212; */
+            --dark:#111827;
+            /* /* --dark: linear-gradient(135deg, #0D0D0D, #1A1A1A);  */
             --darker: #0a0a0a;
-            --light: #f8f9fa;
-            --gray: #6c757d;
-            --dark-gray: #2a2a2a;
+            /* --light: #087ff5; */
+                       --light:  #F97316;
+            --gray: #acda5d;
+            --dark-gray: #4e4646;
         }
+
+  
 
         * {
             margin: 0;
@@ -32,7 +40,14 @@
             color: var(--secondary);
         }
 
-        .container {
+        /* .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 auto;
+            
+        } */
+         .container {
             width: 90%;
             max-width: 1200px;
             margin: 0 auto;
@@ -99,20 +114,35 @@
         }
 
         /* Hero Section */
-        #hero {
-            height: 100vh;
+        /* #hero {
+            height: 220vh;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            position: relative;
+            overflow: hidden;
+            
+            
+        } */
+
+         #hero {
+            height: 150vh;
             display: flex;
             align-items: center;
             padding-top: 80px;
             position: relative;
             overflow: hidden;
         }
+        
 
         .hero-content {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 2rem;
+            /* padding-top: 150px; */
+            
+            
         }
 
         .hero-text {
@@ -132,7 +162,7 @@
 
         .hero-text p {
             font-size: 1.2rem;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
             color: var(--gray);
             max-width: 600px;
         }
@@ -188,7 +218,18 @@
 
         /* About Section */
         section {
-            padding: 6rem 0;
+             padding: 6rem 0;  
+            
+        }
+        /* .container1{
+           border: 2px solid red;
+           margin-top: -200px;
+        } */
+
+        #about{
+           
+            margin-top: -150px;
+            
         }
 
         .section-title {
