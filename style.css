@@ -1,20 +1,12 @@
         :root {
-            /* --primary: #00ff88;
-            --secondary: #00a35c; */
-             /* --primary: #00FF84; */
-             --primary: #dec768;      
-             --secondary: #fbf5f5; 
-            /* --dark: #121212; */
-            --dark:#111827;
-            /* /* --dark: linear-gradient(135deg, #0D0D0D, #1A1A1A);  */
+            --primary: #00ff88;
+            --secondary: #00a35c;
+            --dark: #121212;
             --darker: #0a0a0a;
-            /* --light: #087ff5; */
-                       --light:  #F97316;
-            --gray: #acda5d;
-            --dark-gray: #4e4646;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+            --dark-gray: #2a2a2a;
         }
-
-  
 
         * {
             margin: 0;
@@ -108,23 +100,19 @@
 
         /* Hero Section */
         #hero {
-            height: 150vh;
+            height: 100vh;
             display: flex;
             align-items: center;
             padding-top: 80px;
             position: relative;
             overflow: hidden;
         }
-        
 
         .hero-content {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 2rem;
-/*             padding-top: 150px; */
-            
-            
         }
 
         .hero-text {
@@ -144,7 +132,7 @@
 
         .hero-text p {
             font-size: 1.2rem;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             color: var(--gray);
             max-width: 600px;
         }
@@ -200,19 +188,8 @@
 
         /* About Section */
         section {
-             padding: 12rem 0;  
-            
+            padding: 6rem 0;
         }
-        /* .container1{
-           border: 2px solid red;
-           margin-top: -200px;
-        } */
-
-/*         #about{
-           
-            margin-top: -150px;
-            
-        } */
 
         .section-title {
             text-align: center;
