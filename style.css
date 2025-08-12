@@ -126,7 +126,7 @@
         } */
 
          #hero {
-            height: 150vh;
+            height: 180vh;
             display: flex;
             align-items: center;
             padding-top: 80px;
@@ -218,7 +218,7 @@
 
         /* About Section */
         section {
-             padding: 6rem 0;  
+             padding: 10rem 0;  
             
         }
         /* .container1{
